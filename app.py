@@ -5,8 +5,9 @@ st.header('This is the project for Bit Academy')
 # Task 1
 mainString = st.text_input('This is the text input')
 
-b = None
+b = None # to make it global/universal
 
+# Task 2
 def convert_list(mainString):
     varDuo = mainString.split()
     return varDuo
